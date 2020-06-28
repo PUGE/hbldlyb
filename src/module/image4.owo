@@ -1,0 +1,50 @@
+<template lang="pug">
+.image4-bar.clear
+  .left.fl
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+      p 标题文字标题文字标题文字标题文字标题文字
+  .cent.fl
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+      p 标题文字标题文字标题文字标题文字标题文字
+  .cent.fl
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+      p 标题文字标题文字标题文字标题文字标题文字
+  .right.fl
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+      p 标题文字标题文字标题文字标题文字标题文字
+</template>
+
+
+<style lang="less">
+.image4-bar {
+  margin-top: 20px;
+  a {
+    display: block;
+  }
+  a, img {
+    width: 281px;
+  }
+  img {
+    height: 160px;
+  }
+  .fl {
+    margin-right: 25px;
+  }
+  .fl:hover img {
+    box-shadow: 1px 1px 5px #ccc;
+  }
+  .right {
+    margin-right: 0;
+  }
+  p {
+    font-size: 17px;
+    line-height: 26px;
+    color: #333;
+  }
+  
+}
+</style>

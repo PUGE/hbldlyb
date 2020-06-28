@@ -1,0 +1,76 @@
+<template lang="pug">
+.search-title-bar
+  .w1200.clear
+    .left.fl
+      span.active
+        a(href="#") 留言首页
+      span
+        a(href="#") 最新发布
+      span
+        a(href="#") 领导回复
+      span
+        a(href="#") 追踪报道
+    .right.search-bar.fr
+      input(type="text")
+      img(src="@|searchButton.png|" o-tap="search")
+</template>
+
+<script>
+  module.exports = {
+    search: function () {
+      window.location.href = 'http://liuyan.people.com.cn/threads/searchIndex?keywords=' + this.query('input').value
+    }
+  }
+</script>
+
+
+<style lang="less">
+.search-title-bar {
+  height: 46px;
+  padding: 12px 0;
+  background-color: #e1502a;
+  .left, .left a {
+    line-height: 46px;
+    color: white;
+    font-size: 22px;
+  }
+  span, a {
+    display: block;
+    font-weight: bold;
+  }
+  span {
+    float: left;
+    padding: 0 8px;
+  }
+  span {
+    margin-right: 15px;
+  }
+  .active {
+    background-color: white;
+    span, a {
+      color: #ba4306;
+    }
+    
+  }
+}
+.search-bar {
+  height: 36px;
+  margin: 5px 0;
+  position: relative;
+  width: 290px;
+  background-image: url('@|search-bar.png|');
+  input {
+    position: absolute;
+    right: 75px;
+    height: 36px;
+    border: none;
+    width: 176px;
+  }
+  img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+  }
+}
+</style>

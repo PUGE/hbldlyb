@@ -1,0 +1,270 @@
+<template lang="pug">
+.user-tab-box
+  ul.tab-bar.clear
+    li.tab-bar-item(o-mouseover="changeTab")
+      span 领导留言排行
+      .edit
+        ul.news-list
+          li.clear
+            .left.fl
+              img.people(src="@|people.png|" width="117" height="164")
+            .right.fl
+              h1 领导简要说明文字
+              h3 留言：<span class="red">12345</span>
+              h3 回复：<span class="red">12345</span>
+              p
+                a(href="#" target="_blank") 简历
+                a(href="#" target="_blank") 留言板
+          li.clear
+            .left.fl
+              img.people(src="@|people.png|" width="117" height="164")
+            .right.fl
+              h1 领导简要说明文字
+              h3 留言：<span class="red">12345</span>
+              h3 回复：<span class="red">12345</span>
+              p
+                a(href="#" target="_blank") 简历
+                a(href="#" target="_blank") 留言板
+          li.clear
+            .left.fl
+              img.people(src="@|people.png|" width="117" height="164")
+            .right.fl
+              h1 领导简要说明文字
+              h3 留言：<span class="red">12345</span>
+              h3 回复：<span class="red">12345</span>
+              p
+                a(href="#" target="_blank") 简历
+                a(href="#" target="_blank") 留言板
+          li.clear
+            .left.fl
+              img.people(src="@|people.png|" width="117" height="164")
+            .right.fl
+              h1 领导简要说明文字
+              h3 留言：<span class="red">12345</span>
+              h3 回复：<span class="red">12345</span>
+              p
+                a(href="#" target="_blank") 简历
+                a(href="#" target="_blank") 留言板
+          li.clear
+            .left.fl
+              img.people(src="@|people.png|" width="117" height="164")
+            .right.fl
+              h1 领导简要说明文字
+              h3 留言：<span class="red">12345</span>
+              h3 回复：<span class="red">12345</span>
+              p
+                a(href="#" target="_blank") 简历
+                a(href="#" target="_blank") 留言板
+          li.clear
+            .left.fl
+              img.people(src="@|people.png|" width="117" height="164")
+            .right.fl
+              h1 领导简要说明文字
+              h3 留言：<span class="red">12345</span>
+              h3 回复：<span class="red">12345</span>
+              p
+                a(href="#" target="_blank") 简历
+                a(href="#" target="_blank") 留言板
+          li.clear
+            .left.fl
+              img.people(src="@|people.png|" width="117" height="164")
+            .right.fl
+              h1 领导简要说明文字
+              h3 留言：<span class="red">12345</span>
+              h3 回复：<span class="red">12345</span>
+              p
+                a(href="#" target="_blank") 简历
+                a(href="#" target="_blank") 留言板
+          li.clear
+            .left.fl
+              img.people(src="@|people.png|" width="117" height="164")
+            .right.fl
+              h1 领导简要说明文字
+              h3 留言：<span class="red">12345</span>
+              h3 回复：<span class="red">12345</span>
+              p
+                a(href="#" target="_blank") 简历
+                a(href="#" target="_blank") 留言板
+    li.tab-bar-item(o-mouseover="changeTab")
+      span 领导回复排行
+      .edit
+        ul.news-list
+          li.clear
+            .left.fl
+              img.people(src="@|people.png|" width="117" height="164")
+            .right.fl
+              h1 2222222
+              h3 留言：<span class="red">12345</span>
+              h3 回复：<span class="red">12345</span>
+              p
+                a(href="#" target="_blank") 简历
+                a(href="#" target="_blank") 留言板
+          li.clear
+            .left.fl
+              img.people(src="@|people.png|" width="117" height="164")
+            .right.fl
+              h1 2222222222
+              h3 留言：<span class="red">12345</span>
+              h3 回复：<span class="red">12345</span>
+              p
+                a(href="#" target="_blank") 简历
+                a(href="#" target="_blank") 留言板
+          li.clear
+            .left.fl
+              img.people(src="@|people.png|" width="117" height="164")
+            .right.fl
+              h1 2222222222
+              h3 留言：<span class="red">12345</span>
+              h3 回复：<span class="red">12345</span>
+              p
+                a(href="#" target="_blank") 简历
+                a(href="#" target="_blank") 留言板
+          li.clear
+            .left.fl
+              img.people(src="@|people.png|" width="117" height="164")
+            .right.fl
+              h1 2222222222
+              h3 留言：<span class="red">12345</span>
+              h3 回复：<span class="red">12345</span>
+              p
+                a(href="#" target="_blank") 简历
+                a(href="#" target="_blank") 留言板
+          li.clear
+            .left.fl
+              img.people(src="@|people.png|" width="117" height="164")
+            .right.fl
+              h1 22222222222
+              h3 留言：<span class="red">12345</span>
+              h3 回复：<span class="red">12345</span>
+              p
+                a(href="#" target="_blank") 简历
+                a(href="#" target="_blank") 留言板
+          li.clear
+            .left.fl
+              img.people(src="@|people.png|" width="117" height="164")
+            .right.fl
+              h1 领导简要说明文字
+              h3 留言：<span class="red">12345</span>
+              h3 回复：<span class="red">12345</span>
+              p
+                a(href="#" target="_blank") 简历
+                a(href="#" target="_blank") 留言板
+          li.clear
+            .left.fl
+              img.people(src="@|people.png|" width="117" height="164")
+            .right.fl
+              h1 领导简要说明文字
+              h3 留言：<span class="red">12345</span>
+              h3 回复：<span class="red">12345</span>
+              p
+                a(href="#" target="_blank") 简历
+                a(href="#" target="_blank") 留言板
+          li.clear
+            .left.fl
+              img.people(src="@|people.png|" width="117" height="164")
+            .right.fl
+              h1 领导简要说明文字
+              h3 留言：<span class="red">12345</span>
+              h3 回复：<span class="red">12345</span>
+              p
+                a(href="#" target="_blank") 简历
+                a(href="#" target="_blank") 留言板
+  .tab-box-conn.clear
+    .conn
+</template>
+
+
+<script>
+  module.exports = {
+    created: function () {
+      // 自动生成
+      this.query('.conn').innerHTML = this.query('.tab-bar-item .news-list').innerHTML
+      this.query('.tab-bar-item').classList.add('active')
+    },
+    changeTab: function () {
+      this.queryAll('.tab-bar-item').forEach(element => {
+        element.classList.remove('active')
+      });
+      this.query('.conn').innerHTML = this.$target.querySelector('.news-list').innerHTML
+      this.$target.classList.add('active')
+    }
+  }
+</script>
+
+<style lang="less">
+.edit {
+  display: none;
+}
+
+.tab-box-2 {
+  width: 560px;
+}
+.tab-bar {
+  margin-top: 20px;
+  border-top: 8px solid #d93d04;
+  background-color: #d93d04;
+  .tab-bar-item {
+    float: left;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 3px 10px;
+    border-bottom: none;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    span {
+      user-select: none;
+      pointer-events: none;
+    }
+  }
+  .active {
+    color: #d93d04;
+    background-color: white;
+  }
+}
+.conn li {
+  float: left;
+  width: 299px;
+  margin: 10px 0;
+}
+.conn {
+  li {
+    .left {
+      .people {
+        width: 117px;
+        height: 164px;
+        margin-right: 10px;
+      }
+    }
+    .right {
+      h1 {
+        font-size: 18px;
+        line-height: 36px;
+      }
+      p, h3 {
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: normal;
+      }
+      p {
+        a {
+          margin-right: 10px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+a {
+  color: #333;
+}
+.red {
+  color: #d2423b;
+}
+.tab-box-conn {
+  background-color: #fff6f5;
+  border: 1px solid #f9e1a8;
+  box-sizing: border-box;
+  border-top: none;
+}
+</style>

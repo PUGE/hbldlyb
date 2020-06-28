@@ -1,0 +1,243 @@
+<template lang="pug">
+.home
+  img.main-image(src="@|bg.png|")
+  plug(_name="searchBar" _src="./src/module/searchBar.owo")
+  .w1200
+    //- 顶部切换
+    .tab-box
+      ul.tab-bar.clear
+        li.tab-bar-item(o-mouseover="changeTab1")
+          span 追踪报道
+          .edit
+            ul.news-list
+              li
+                a(href="#") 5月份工业企业利润增速由负转正 效益持续改善
+              li
+                a(href="#") 端午节假期交通总体顺畅 接待游客4880.9万人次
+              li
+                a(href="#") 一个学生都不能少 西宁市控辍保学遏制贫困传递
+              li
+                a(href="#") 黑龙江:立法守护良好营商环境 服务企业有温度
+              li
+                a(href="#") 2020中俄社会民调报告:民众对中俄关系充满信心
+              li
+                a(href="#") 5月份工业企业利润增速由负转正 效益持续改善
+              li
+                a(href="#") 端午节假期交通总体顺畅 接待游客4880.9万人次
+              li
+                a(href="#") 一个学生都不能少 西宁市控辍保学遏制贫困传递
+              li
+                a(href="#") 黑龙江:立法守护良好营商环境 服务企业有温度
+        li.tab-bar-item(o-mouseover="changeTab1")
+          span 最新发布
+          .edit
+            ul.news-list
+              li
+                a(href="#") 6月份工业企业利润增速由负转正 效益持续改善
+              li
+                a(href="#") 端午节假期交通总体顺畅 接待游客4880.9万人次
+              li
+                a(href="#") 一个学生都不能少 西宁市控辍保学遏制贫困传递
+              li
+                a(href="#") 黑龙江:立法守护良好营商环境 服务企业有温度
+              li
+                a(href="#") 2020中俄社会民调报告:民众对中俄关系充满信心
+              li
+                a(href="#") 5月份工业企业利润增速由负转正 效益持续改善
+              li
+                a(href="#") 端午节假期交通总体顺畅 接待游客4880.9万人次
+              li
+                a(href="#") 一个学生都不能少 西宁市控辍保学遏制贫困传递
+              li
+                a(href="#") 黑龙江:立法守护良好营商环境 服务企业有温度
+      .info-box-1
+        ul.left 
+        //- 两个领导的头像
+        .people-box.people-box-1
+          img(src="@|people.png|")
+          p.name 领导名字
+          p
+            span
+              a(href="#") 简历
+            span.message
+              a(href="#") 给他留言
+        .people-box.people-box-2
+          img(src="@|people.png|")
+          p.name 领导名字
+          p
+            span
+              a(href="#") 简历
+            span.message
+              a(href="#") 给他留言
+    .title 网友献策
+    plug(_name="image4" _src="./src/module/image4.owo")
+    plug(_name="module25" _src="https://template.owo.ink/a234cff3f81bdd31.owo")
+    .news-list.clear
+      .left.fl
+        plug(_name="tabBox" _src="./src/module/tabBox.owo")
+      .right.fr
+        plug(_name="tabBox" _src="./src/module/tabBox.owo")
+    plug(_name="module25" _src="https://template.owo.ink/a234cff3f81bdd31.owo")
+    plug(_name="userTabBox" _src="./src/module/userTabBox.owo")
+    plug(_name="module25" _src="https://template.owo.ink/a234cff3f81bdd31.owo")
+    .title 支持平台
+    .logo-box
+      img(src="http://chuxin.people.cn/NMediaFile/2019/0625/MAIN201906251521006936216629888.png")
+      img(src="http://chuxin.people.cn/NMediaFile/2019/0625/MAIN201906251521006936216629888.png")
+      img(src="http://chuxin.people.cn/NMediaFile/2019/0625/MAIN201906251521006936216629888.png")
+      img(src="http://chuxin.people.cn/NMediaFile/2019/0625/MAIN201906251521006936216629888.png")
+      img(src="http://chuxin.people.cn/NMediaFile/2019/0625/MAIN201906251521006936216629888.png")
+      img(src="http://chuxin.people.cn/NMediaFile/2019/0625/MAIN201906251521006936216629888.png")
+      img(src="http://chuxin.people.cn/NMediaFile/2019/0625/MAIN201906251521006936216629888.png")
+      img(src="http://chuxin.people.cn/NMediaFile/2019/0625/MAIN201906251521006936216629888.png")
+      img(src="http://chuxin.people.cn/NMediaFile/2019/0625/MAIN201906251521006936216629888.png")
+      img(src="http://chuxin.people.cn/NMediaFile/2019/0625/MAIN201906251521006936216629888.png")
+      img(src="http://chuxin.people.cn/NMediaFile/2019/0625/MAIN201906251521006936216629888.png")
+      img(src="http://chuxin.people.cn/NMediaFile/2019/0625/MAIN201906251521006936216629888.png")
+      img(src="http://chuxin.people.cn/NMediaFile/2019/0625/MAIN201906251521006936216629888.png")
+      img(src="http://chuxin.people.cn/NMediaFile/2019/0625/MAIN201906251521006936216629888.png")
+      img(src="http://chuxin.people.cn/NMediaFile/2019/0625/MAIN201906251521006936216629888.png")
+      img(src="http://chuxin.people.cn/NMediaFile/2019/0625/MAIN201906251521006936216629888.png")
+    plug(_name="module25" _src="https://template.owo.ink/a234cff3f81bdd31.owo")
+  .bottom-bar
+    plug(_name="module2" _src="https://template.owo.ink/060579f0b4f1bcaa.owo")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      // 自动生成
+      this.query('.tab-box .info-box-1 .left').innerHTML = this.query('.tab-box .tab-bar .edit .news-list').innerHTML
+      this.query('.tab-box .tab-bar-item').classList.add('active')
+    },
+    changeTab1: function () {
+      this.queryAll('.tab-box .tab-bar .tab-bar-item').forEach(element => {
+        element.classList.remove('active')
+      });
+      this.query('.tab-box .info-box-1 .left').innerHTML = this.$target.querySelector('.edit .news-list').innerHTML
+      this.$target.classList.add('active')
+    }
+  }
+</script>
+
+
+<style lang="less">
+.main-image {
+  display: block;
+  width: 100%;
+}
+.tab-box {
+  margin-top: 20px;
+  .tab-bar {
+    border-bottom: 8px solid #d93d04;
+    .tab-bar-item {
+      float: left;
+      font-size: 23px;
+      line-height: 35px;
+      padding: 2px 10px;
+      border: 1px solid #da3f06;
+      border-bottom: none;
+      border-radius: 10px 10px 0 0;
+      color: #da3f06;
+      margin-right: 10px;
+      cursor: pointer;
+      span {
+        user-select: none;
+        pointer-events: none;
+      }
+    }
+    .active {
+      color: white;
+      background-color: #da3f06;
+    }
+  }
+}
+.info-box-1 {
+  height: 310px;
+  width: 100%;
+  border: 1px solid #e59e40;
+  box-sizing: border-box;
+  border-top: none;
+  position: relative;
+  overflow: hidden;
+  padding: 0 10px;
+  background-color: #fef9e7;
+  .left {
+    width: 530px;
+    height: 290px;
+    padding: 10px 0;
+    line-height: 31px;
+    font-size: 18px;
+    overflow: hidden;
+    li {
+      padding: 0 10px;
+      border-bottom: 1px dotted #ccc;
+    }
+    a {
+      display: block;
+      color: #333;
+    }
+    a:hover {
+      color: #e60012;
+    }
+  }
+}
+.show {
+  margin-top: 20px;
+}
+.people-box {
+  position: absolute;
+  height: 210px;
+  width: 120px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 34%;
+  img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4px;
+  }
+  .name {
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  p {
+    line-height: 20px;
+    span {
+      margin-right: 5px;
+    }
+  }
+  .message a {
+    color: #d2423b;
+  }
+}
+.people-box-2 {
+  right: 8%;
+}
+.title {
+  color: #d93d04;
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 4px solid #e55002;
+  line-height: 36px;
+  display: inline-block;
+  letter-spacing: 4px;
+  margin-top: 20px;
+}
+.logo-box img {
+  width: 154px;
+  height: 77px;
+  margin: 10px 73px;
+}
+.bottom-bar {
+  background-color: #c43c20;
+  color: white;
+  margin-top: 40px;
+  padding: 30px 0;
+  #copyright {
+    color: white;
+  }
+}
+</style>

@@ -1,0 +1,299 @@
+<template lang="pug">
+.tab-box-2
+  ul.tab-bar.clear
+    li.tab-bar-item(o-mouseover="changeTab")
+      span 追踪报道
+      .edit
+        ul.news-list
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+    li.tab-bar-item(o-mouseover="changeTab")
+      span 最新发布
+      .edit
+        ul.news-list
+          li
+            a(href="#")
+              .name [2领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [2领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [2领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+          li
+            a(href="#")
+              .name [领导名]
+              .text 文字文字文字文字文字文字文字文字
+                span.info [阅99 | 跟帖<span class="red">10</span>]
+              .time 2020-06-24
+  .tab-box-conn
+    .tab-title-bar.clear
+      span(style="width:80px;text-align:center; ") 留言领导
+      span(style="width:399px;") 主题
+      span(style="width:70px;text-align:center; ") 发布时间
+    .conn
+</template>
+
+
+<script>
+  module.exports = {
+    created: function () {
+      // 自动生成
+      this.query('.conn').innerHTML = this.query('.tab-bar-item .news-list').innerHTML
+      this.query('.tab-bar-item').classList.add('active')
+    },
+    changeTab: function () {
+      this.queryAll('.tab-bar-item').forEach(element => {
+        element.classList.remove('active')
+      });
+      this.query('.conn').innerHTML = this.$target.querySelector('.news-list').innerHTML
+      this.$target.classList.add('active')
+    }
+  }
+</script>
+
+<style lang="less">
+.edit {
+  display: none;
+}
+.conn .name, .conn .text, .conn .time {
+  float: left;
+}
+
+
+.conn li:after, .conn li a:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.tab-box-2 {
+  width: 560px;
+}
+.tab-bar {
+  margin-top: 20px;
+  border-bottom: 8px solid #d93d04;
+  .tab-bar-item {
+    float: left;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 3px 10px;
+    border: 1px solid #da3f06;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    color: #da3f06;
+    margin-right: 10px;
+    cursor: pointer;
+    span {
+      user-select: none;
+      pointer-events: none;
+    }
+  }
+  .active {
+    color: white;
+    background-color: #da3f06;
+  }
+}
+.tab-title-bar {
+  background-color: #f9e1a8;
+  line-height: 35px;
+  color: #d93d04;
+  font-weight: bold;
+  font-size: 17px;
+  span {
+    display: block;
+    float: left;
+  }
+}
+.conn {
+  background-color: #fcfaf2;
+  li, a {
+    display: block;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  li {
+    border-bottom: 1px solid #fcfaf2;
+  }
+  .name {
+    color: #d93d04;
+    font-size: 16px;
+    font-weight: bold;
+    width: 79px;
+    text-align: left;
+  }
+  .text {
+    width: 390px;
+    color: #333;
+    font-size: 16px;
+  }
+  .time {
+    width: 86px;
+    text-align: center;
+  }
+  .info {
+    color: #a6a6a6;
+    font-size: 14px;
+    margin-left: 5px;
+    .red {
+      color: #d93d04;
+    }
+  }
+  a:hover .text {
+    color: #d93d04;
+  }
+}
+</style>
